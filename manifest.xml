@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest schema-ver="1">
+  <guid>RSkoi.LiquidShader</guid>
+  <name>Liquid Shader</name>
+  <version>1.0.0</version>
+  <author>RSkoi</author>
+  <description>Simple shader simulating a liquid</description>
+  <website>
+  </website>
+  <MaterialEditor>
+    <Shader Name="RSkoi/LiquidShader" AssetBundle="chara/shaders/rsliquid.unity3d" Asset="asset_Liquid">
+      <Property Name="Color" Type="Color" />
+      <Property Name="BumpMap" Type="Texture" />
+      <Property Name="Fill" Type="Float" Range="-1,1" />
+      <Property Name="SurfaceColor" Type="Color" />
+      <Property Name="FresnelPower" Type="Float" Range="0,5" />
+      <Property Name="FresnelColor" Type="Color" />
+      <Property Name="RotationX" Type="Float" Range="-1,1" />
+	  <Property Name="RotationZ" Type="Float" Range="-1,1" />
+    </Shader>
+  </MaterialEditor>
+</manifest>
